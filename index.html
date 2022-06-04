@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio website" />
+    <meta property="og:title" content="Sabih - Frontend Developer" />
+    <meta property="og:description" content="Portfolio website" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/images/logo.png" />
+    <meta property="og:url" content="https://sabih-web.netlify.app/" />
+    <title>Web &dash; Portfolio</title>
+    <!-- Favicons -->
+    <link rel="icon" href="assets/images/favicon-sm.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="assets/images/favicon-md.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="assets/images/favicon-lg.png"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body id="home">
+    <!-- NavBar Start -->
+    <header>
+      <div class="container">
+        <nav class="nav collapsible">
+          <a href="index.html">
+            <img src="assets/images/logo.png" alt="logo" class="logo" />
+          </a>
+          <img
+            src="assets/images/menu-icon.svg"
+            alt="menu icon"
+            class="icon nav__toggler"
+          />
+          <ul class="list nav__list collapsible__content">
+            <li class="nav__item"><a href="index.html">home</a></li>
+            <li class="nav__item"><a href="#aboutme">about me</a></li>
+            <li class="nav__item"><a href="#skills">skills</a></li>
+            <li class="nav__item"><a href="#work">work</a></li>
+            <li class="nav__item"><a href="#contact">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- NavBar End -->
+
+    <!-- Hero Start -->
+    <section class="block hero">
+      <div class="container grid grid--md">
+        <header class="block__hero" data-aos="fade-right">
+          <h1 class="block__heading">hello, I&apos;m sabih.</h1>
+          <p class="block__desc">front-end developer</p>
+          <a href="#contact" class="btn btn--primary">contact</a>
+        </header>
+        <picture class="block__hero-image" data-aos="zoom-in-left">
+          <source type="image/svg" srcset="assets/images/hero.svg" />
+          <img
+            src="assets/images/hero.svg"
+            alt="hero"
+            class="block__hero-image__pic"
+          />
+        </picture>
+      </div>
+    </section>
+    <!-- Hero End -->
+
+    <!-- AboutMe Start -->
+    <section id="aboutme" class="block about-me">
+      <div class="container grid grid--md">
+        <picture class="block__about-me-image" data-aos="zoom-in-right">
+          <source type="image/svg" srcset="assets/images/about-me.svg" />
+          <img
+            src="assets/images/about-me.svg"
+            alt="about me"
+            class="block__about-me-image__pic"
+          />
+        </picture>
+        <div class="block__about-me" data-aos="fade-left">
+          <h2 class="block__heading">about me</h2>
+          <p class="block__desc">
+            I am Sabih Ahmed currently working as a frontend developer. I
+            possess the skills like HTML5, CSS3, Bootstrap. I developed few
+            websites with clean code.
+          </p>
+          <p class="block__desc">
+            I am also learning wordpress &amp; have done some projects of theme
+            customization and build websites using page&dash;builder elementor,
+            WPbakery.
+          </p>
+          <a href="#work" class="btn btn--primary">my work</a>
+        </div>
+      </div>
+    </section>
+    <!-- AboutMe End -->
+
+    <!-- Skills Start -->
+    <section id="skills" class="block skills">
+      <header class="container block__header" data-aos="slide-right">
+        <h2 class="block__title">skils</h2>
+      </header>
+      <div class="container grid grid--md grid--lg">
+        <article class="block__skill" data-aos="fade-right">
+          <div class="card">
+            <img src="assets/images/html5.png" alt="" class="card__pic" />
+            <h3 class="card__title">html5</h3>
+          </div>
+        </article>
+        <article class="block__skill" data-aos="fade-up">
+          <div class="card">
+            <img src="assets/images/css3.png" alt="" class="card__pic" />
+            <h3 class="card__title">css3</h3>
+          </div>
+        </article>
+        <article class="block__skill" data-aos="fade-left">
+          <div class="card">
+            <img src="assets/images/bootstrap.png" alt="" class="card__pic" />
+            <h3 class="card__title">bootstrap</h3>
+          </div>
+        </article>
+        <article class="block__skill" data-aos="fade-right">
+          <div class="card">
+            <img src="assets/images/psdtohtml.png" alt="" class="card__pic" />
+            <h3 class="card__title">psd to html</h3>
+          </div>
+        </article>
+        <article class="block__skill" data-aos="fade-up">
+          <div class="card">
+            <img src="assets/images/psdtobs.png" alt="" class="card__pic" />
+            <h3 class="card__title">psd to bootstrap</h3>
+          </div>
+        </article>
+        <article class="block__skill" data-aos="fade-left">
+          <div class="card">
+            <img src="assets/images/wordpress.png" alt="" class="card__pic" />
+            <h3 class="card__title">wordpress</h3>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- Skills End -->
+
+    <!-- Work Start -->
+    <section id="work" class="block work">
+      <header class="container block__header" data-aos="fade-left">
+        <h2 class="block__title">my work</h2>
+      </header>
+      <div class="container grid grid--md grid--lg">
+        <article class="block__work" data-aos="fade-right">
+          <a href="https://moshifyapp.netlify.app/" target="_blank">
+            <div class="card">
+              <img src="assets/images/moshify.webp" alt="" class="card__pic" />
+              <h3 class="card__title">moshify</h3>
+            </div>
+          </a>
+        </article>
+        <article class="block__work" data-aos="fade-up">
+          <a href="https://appagency.netlify.app/" target="_blank">
+            <div class="card">
+              <img src="assets/images/doob.webp" alt="" class="card__pic" />
+              <h3 class="card__title">doob</h3>
+            </div>
+          </a>
+        </article>
+        <article class="block__work" data-aos="fade-left">
+          <a href="https://applab-site.netlify.app/" target="_blank">
+            <div class="card">
+              <img src="assets/images/applab.webp" alt="" class="card__pic" />
+              <h3 class="card__title">applab</h3>
+            </div>
+          </a>
+        </article>
+        <article class="block__work" data-aos="fade-right">
+          <a href="https://h-techapp.netlify.app/" target="_blank">
+            <div class="card">
+              <img src="assets/images/htech.webp" alt="" class="card__pic" />
+              <h3 class="card__title">h&dash;tech</h3>
+            </div>
+          </a>
+        </article>
+        <article class="block__work" data-aos="fade-up">
+          <a href="https://gracious-wiles-cc47df.netlify.app/" target="_blank">
+            <div class="card">
+              <img src="assets/images/agency.webp" alt="" class="card__pic" />
+              <h3 class="card__title">agency</h3>
+            </div>
+          </a>
+        </article>
+        <article class="block__work" data-aos="fade-left">
+          <a href="https://usaandbeyondtravel.com/" target="_blank">
+            <div class="card">
+              <img src="assets/images/travel.webp" alt="" class="card__pic" />
+              <h3 class="card__title">travel</h3>
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+    <!-- Work End -->
+
+    <!-- Footer Start -->
+    <div class="container">
+      <div id="contact" class="contact contact--primary contact-box">
+        <div class="contact__content">
+          <h2 class="contact__heading">contact</h2>
+          <ul class="list">
+            <li class="list__item">
+              <a
+                href="https://www.facebook.com/sabeeh.ahmed.338"
+                target="_blank"
+                class="list__link"
+              >
+                <img src="assets/images/fb-icon.png" alt="" />
+              </a>
+            </li>
+            <li class="list__item">
+              <a
+                href="https://www.linkedin.com/in/sabeeh-ahmad-a49107115/"
+                target="_blank"
+                class="list__link"
+              >
+                <img src="assets/images/li-icon.png" alt="" />
+              </a>
+            </li>
+          </ul>
+          <a href="mailto:sabeehahmed5@gmail.com" class="contact-link"
+            >sabeehahmed5@gmail.com</a
+          >
+        </div>
+      </div>
+    </div>
+    <footer class="block--footer footer">
+      <div class="container">
+        <a href="#home" class="footer__link">
+          <img src="assets/images/logo-alt.png" alt="" class="logo" />
+        </a>
+        <p class="footer__text">
+          copyright &copy;
+          <script>
+            var currentYear = new Date().getFullYear();
+            document.write(currentYear);
+          </script>
+          sabih.
+        </p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Scroll To Top -->
+    <a href="#home" id="scrollTop" class="btn btn--scroll">Top</a>
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
