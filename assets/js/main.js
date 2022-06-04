@@ -15,7 +15,7 @@ var mybutton = document.getElementById("scrollTop");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
     mybutton.style.display = "inline-block";
   } else {
     mybutton.style.display = "none";
